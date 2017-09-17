@@ -1,5 +1,7 @@
+INSERT INTO `migrations` VALUES ('20170916172553');
+
 UPDATE quest_template
-SET ReqCreatureOrGoCount1 = 8, ReqCreatureOrGoCount2 = 5, ReqCreatureOrGoCount3 = 5, ReqCreatureOrGoCount4 = 2, Type = 0
+SET Type = 0
 WHERE entry = 7841;
 
 UPDATE creature_template
